@@ -85,3 +85,4 @@ file = '../data/sample_sail_ppi.nc'
 radar = pyart.io.read(file)
 radar
 ```
+### Investigate the [`pyart.Radar` object](https://arm-doe.github.io/pyart/API/generated/pyart.core.Radar.html#pyart.core.Radar)
