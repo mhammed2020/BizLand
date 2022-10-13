@@ -21,7 +21,7 @@ Within this notebook, we will cover:
 
 ## Imports
 
-```python:
+``` python:
 # import os
 import warnings
 
