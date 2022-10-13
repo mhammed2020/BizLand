@@ -75,7 +75,8 @@ Let's check out what arguments arguments `pyart.io.read()` takes in!
 ```python
 pyart.io.read?
 ```
-
+```python
 Let's use a sample data file from `pyart` - which is [**cfradial** format](https://github.com/NCAR/CfRadial).
 
 When we read this in, we get a [`pyart.Radar` object](https://arm-doe.github.io/pyart/API/generated/pyart.core.Radar.html#pyart.core.Radar)!
+```
