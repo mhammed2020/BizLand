@@ -58,3 +58,16 @@ processing pipelines. Specific uses for Py-ART include:
  * Mapping data from one or multiple radars onto a Cartesian grid.
  * Performing retrievals.
  * Writing radial and Cartesian data to NetCDF files.
+
+## Reading in Data Using Py-ART
+
+When reading in a radar file, we use the `pyart.io.read` module.
+
+`pyart.io.read` can read a variety of different radar formats, such as Cf/Radial, LASSEN, and more. 
+The documentation on what formats can be read by Py-ART can be found here:
+
+* [Py-ART IO Documentation](https://arm-doe.github.io/pyart/API/generated/pyart.io.html)
+
+For most file formats listed on the page, using `pyart.io.read` should suffice since Py-ART has the ability to automatically detect the file format.
+
+Let's check out what arguments arguments `pyart.io.read()` takes in!
