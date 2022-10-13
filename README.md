@@ -33,3 +33,28 @@ import pyart
 
 warnings.filterwarnings('ignore')
 ```
+## An Overview of Py-ART
+
+### History of the Py-ART
+
+ * Development began to address the needs of ARM with the acquisition of a number of
+   new scanning cloud and precipitation radar as part of the American Recovery Act.
+ * The project has since expanded to work with a variety of weather radars and a wider user
+   base including radar researchers and climate modelers.
+ * The software has been released on GitHub as open source software under a BSD license.
+   Runs on Linux, OS X. It also runs on Windows with more limited functionality.
+
+### What can PyART Do?
+
+Py-ART can be used for a variety of tasks from basic plotting to more complex
+processing pipelines. Specific uses for Py-ART include:
+
+ * Reading radar data in a variety of file formats.
+ * Creating plots and visualization of radar data.
+ * Correcting radar moments while in antenna coordinates, such as:
+    * Doppler unfolding/de-aliasing.
+    * Attenuation correction.
+    * Phase processing using a Linear Programming method.
+ * Mapping data from one or multiple radars onto a Cartesian grid.
+ * Performing retrievals.
+ * Writing radial and Cartesian data to NetCDF files.
