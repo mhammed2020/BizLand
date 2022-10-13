@@ -71,3 +71,7 @@ The documentation on what formats can be read by Py-ART can be found here:
 For most file formats listed on the page, using `pyart.io.read` should suffice since Py-ART has the ability to automatically detect the file format.
 
 Let's check out what arguments arguments `pyart.io.read()` takes in!
+
+```python
+pyart.io.read?
+```
