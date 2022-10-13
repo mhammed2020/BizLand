@@ -80,3 +80,8 @@ Let's use a sample data file from `pyart` - which is [**cfradial** format](https
 
 When we read this in, we get a [`pyart.Radar` object](https://arm-doe.github.io/pyart/API/generated/pyart.core.Radar.html#pyart.core.Radar)!
 ```
+```python
+file = '../data/sample_sail_ppi.nc'
+radar = pyart.io.read(file)
+radar
+```
