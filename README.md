@@ -19,7 +19,10 @@ Within this notebook, we will cover:
 
 ---
 
-import os
+## Imports
+
+```
+# import os
 import warnings
 
 import cartopy.crs as ccrs
@@ -30,3 +33,5 @@ import numpy as np
 import pyart
 
 warnings.filterwarnings('ignore')
+}
+```
