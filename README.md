@@ -75,3 +75,7 @@ Let's check out what arguments arguments `pyart.io.read()` takes in!
 ```python
 pyart.io.read?
 ```
+```python
+# import os
+pyart.io.read?
+```
