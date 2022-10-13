@@ -20,18 +20,8 @@ Within this notebook, we will cover:
 ---
 
 ## Imports
-
-``` python:
-# import os
-import warnings
-
-import cartopy.crs as ccrs
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-import pyart
-
-warnings.filterwarnings('ignore')
-
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
